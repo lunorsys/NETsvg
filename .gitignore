@@ -1,0 +1,75 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.whl
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.python-version
+
+# ============================================================
+# VS Code
+# ============================================================
+.vscode/
+*.code-workspace
+
+# ============================================================
+# JetBrains / PyCharm
+# ============================================================
+.idea/
+*.iml
+
+# ============================================================
+# Windows / macOS / Linux
+# ============================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+*~
+.fuse_hidden*
+.nfs*
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+
+# ============================================================
+# Output artifacts (your project)
+# ============================================================
+*.svg
+*.png
+*.pdf
+
+# If you want to keep some generated results, comment the three lines above
+# or replace them with something like:
+# /output/
+# /exports/
